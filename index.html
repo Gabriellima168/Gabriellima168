@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Meu C.V </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<style>
+  a,
+  a link {
+    text-decoration: none;
+    padding: 3px 8px;
+    color: black;
+  }
+  a:hover {
+            background-color: #75a6d3;
+            color: white;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .container {
+          display: grid;
+          border: 3px;
+          padding: 5px;
+        }
+  .header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #8a9594;
+            border-radius: 15px;
+            align-content: center;
+            text-align: center;
+        }
+    .subtitulo{
+    border: 1px solid #685454;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 20px;
+    }
+    .subtitulo2{
+    border: 1px solid #685454;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 20px;
+    }
+    th {
+  text-align: left;
+}
+.menu {
+  display: grid;
+  border: #685454, 3px;
+  border-radius: 5px;
+    grid-column-start: 6;
+    grid-column-end: 12;
+    gap: 20px;
+}
+.img{
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  padding: 5px;
+  margin-bottom: 0.8rem;
+}
+.linkimg a:hover{
+background-color: white;
+
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Meu Currículo</h1>
+  <h2>Gabriel Vaucher</h2>
+</div>
+
+<article>
+  <div class="menu">
+    <ul>
+    <li><a href="index.html">-Sobre mim</a></li>
+    <li><a href="#l2">-Formação</a></li>
+    <li><a href="#l3">-Portfólio</a></li>
+    <li><a href="#l4">-Contato</a></li>
+    </ul>
+  </div>
+
+  <div class="subtitulo">
+    <h1>Gabriel Vaucher de Lima</h1>
+    <p>Meu nome é Gabriel, sou litoral do estado do Rio Grande do Sul. Sempre tive bastante interesse na área de tecnologia e computação, porém, ainda não havia aprofundado meus conhecimentos na área. Tenho formação em Publicidade e Propaganda.</p>
+    <p>Tenho bastante curiosidade em aprender coisas novas de todos os tipos. Costumo passar boa parte das minhas horas vagas lendo sobre os mais diversos assuntos. Além disso, tenho interesse em música, cinema e literatura.</p>
+  </div>
+
+  <div class="subtitulo2">
+      <h2 id="l2">Formação</h2>
+      <h3>Comunicação Social - Publicidade e Propaganda</h3>
+      <p>2015/2021 - Completo</p>
+      <h3>Web Design - SENAC</h3>
+      <p>2014 - Completo</p></div>
+
+  <div class="subtitulo2">
+     <h2 id="l3">Portifólio</h2>
+     <div class="img linkimg">
+      <h4>Aqui você pode ver alguns trabalhos desenvolvidos para fins educacionais</h4>
+      <table>
+        <tr><td><a href="C:\Users\GABIGOL\Downloads\ads siiiite-20240902T213416Z-001\ads siiiite\exercicio aula 3"><img src="landind.png" width="95%" height="350px" ></a></td><td><a href="leo.html"><img src="leonardo.png" width="95%" height="350px"></a></td></tr>
+        </table>
+     </div>
+  </div>
+
+  <div class="subtitulo2">
+    <h2 id="l4">Contato</h2>
+    <h2>Para contato preencha o formulário</h3>
+      <form>
+        <table>
+          <tr><th ><label for="nome">Nome</label></th></tr>
+          <td><input type="text" name="nome" id="nome"></td>
+          <tr><th><label for="email">E-mail:</label></th></tr>
+          <td><input type="email" name="email" id="email"></td>
+          </tr>
+          <tr><th><label for="msg">Digite a sua mensagem:</label></th></tr>
+            <tr><td><textarea name="msg" rows="5" cols="30">Digite a sua mensagem</textarea></td></tr>
+          </tr>
+        </table>
+      </form>
+</article>
+
+<div class="footer">
+  <p>Gabriel Vaucher - 2024</p>
+</div>
+
+</body>
+</html>
